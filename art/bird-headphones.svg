@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -6 86 72" role="img" aria-label="Hummle bird wearing headphones"><title>Hummle bird wearing headphones</title>
+<g stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round" fill="#FFFFFF"><g transform="translate(6 10)">
+  
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#FFFFFF"/>
+  <circle cx="36" cy="28" r="15" fill="#FFFFFF"/>
+  <circle cx="47" cy="41" r="13.5" fill="#FFFFFF" clip-path="url(#s2)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#FFFFFF"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#FFFFFF"/>
+  <path d="M22 26 C22 8 50 8 50 26" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <rect x="18" y="22" width="8" height="12" rx="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+  <rect x="46" y="22" width="8" height="12" rx="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+  <g fill="#FFFFFF"><circle cx="64" cy="10" r="2.6"/><path d="M66.4 10 V0 L72 -2 V7" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF"/><circle cx="69.6" cy="7.4" r="2.4"/></g></g></g>
+<g transform="translate(6 10)">
+  <defs><clipPath id="s2"><circle cx="36" cy="28" r="15"/></clipPath></defs>
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#191B23"/>
+  <circle cx="36" cy="28" r="15" fill="#191B23"/>
+  <circle cx="47" cy="41" r="13.5" fill="#B45134" clip-path="url(#s2)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#191B23"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#F6F2EC"/>
+  <path d="M22 26 C22 8 50 8 50 26" fill="none" stroke="#E9966A" stroke-width="4" stroke-linecap="round"/>
+  <rect x="18" y="22" width="8" height="12" rx="3" fill="#E9966A" stroke="#191B23" stroke-width="1.5"/>
+  <rect x="46" y="22" width="8" height="12" rx="3" fill="#E9966A" stroke="#191B23" stroke-width="1.5"/>
+  <g fill="#B45134"><circle cx="64" cy="10" r="2.6"/><path d="M66.4 10 V0 L72 -2 V7" stroke="#B45134" stroke-width="2" fill="none"/><circle cx="69.6" cy="7.4" r="2.4"/></g></g></svg>

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hummle reads to you</title>
+<meta name="description" content="Hummle reads books, articles, web novels and your own writing aloud, with voices that follow the story. It runs on your own computer, so what you read stays yours.">
+<link rel="canonical" href="https://hummle.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hummle">
+<meta property="og:title" content="Hummle reads to you">
+<meta property="og:description" content="Hummle reads books, articles, web novels and your own writing aloud, with voices that follow the story. It runs on your own computer, so what you read stays yours.">
+<meta property="og:url" content="https://hummle.app/">
+<meta property="og:image" content="https://hummle.app/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hummle: a page being read aloud, with the current word highlighted">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#171A22">
+<link rel="icon" href="brand/hummle-favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="hero dark">
+  <div class="wrap">
+    <header class="site-head">
+      <a class="logo" href="index.html" aria-label="Hummle home"><img src="brand/hummle-logo-dark.svg" alt="Hummle"></a>
+      <nav class="nav" aria-label="Main">
+        <a href="features.html">Features</a>
+        <a href="voices.html">Voices</a>
+        <a href="how-it-works.html">How it works</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <div class="hero-body">
+      <div class="hero-copy">
+        <h1>Give every line a voice.</h1>
+        <p class="lede">Hummle reads books, articles, web novels and your own writing aloud. Its voices follow the story: quiet when someone hides, shaky when they’re scared. It runs on your own computer, so what you read stays yours.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="how-it-works.html">See how it works</a>
+          <a class="btn btn-ghost" href="voices.html">Meet the voices</a>
+        </div>
+        <span class="pill"><span class="blip" aria-hidden="true"></span>In private development</span>
+      </div>
+
+      <div class="reader" data-reader data-expr="natural">
+        <img class="sticker bird awake" src="art/bird-headphones.svg" alt="">
+        <img class="sticker bird sleep" src="art/bird-sleepy.svg" alt="">
+        <figure class="page paper tape" style="margin:0" aria-label="A silent demo of the Hummle read-along page">
+          <div class="page-top"><span>Now reading <strong data-title>The Letter</strong></span><span>Silent demo</span></div>
+          <p class="script" data-script>The kettle had gone cold an hour ago, and still she sat by the window, turning the letter over in her hands. Some news arrives quietly. This was that kind: gentle on the page, and impossible to put down.</p>
+          <div class="player">
+            <div class="who-reads"><img data-face src="voices/mara-sm.webp" alt="" width="50" height="50"><div><b data-name>Mara</b><span data-accent>North American English</span></div></div>
+            <div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="seg-wrap"><span id="expr-label">Expression</span>
+              <div class="seg" role="group" aria-labelledby="expr-label">
+                <button type="button" data-expr="subtle" aria-pressed="false">Subtle</button><button type="button" data-expr="natural" aria-pressed="true">Natural</button><button type="button" data-expr="dramatic" aria-pressed="false">Dramatic</button>
+              </div>
+            </div>
+            <button class="playbtn" type="button" data-play aria-label="Pause the demo">
+              <svg class="i-pause" viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="3" width="4" height="14" rx="1.2"/><rect x="12" y="3" width="4" height="14" rx="1.2"/></svg>
+              <svg class="i-play" viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L7.5 2.64A1 1 0 0 0 6 3.5z"/></svg>
+            </button>
+          </div>
+        </figure>
+        <div class="cast" data-cast hidden>
+          <span class="note">pick who reads<svg viewBox="0 0 54 40" aria-hidden="true"><path d="M4 8 C20 4 38 10 46 30"/><path d="M38 26 L46 31 L49 21"/></svg></span>
+          <ul class="faces" data-faces aria-label="Choose who reads the demo"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+  <section class="section">
+    <div class="wrap">
+      <div class="head">
+        <h2>Made for reading. All kinds of it.</h2>
+        <p class="lede">The chapter you’re hooked on, the long article you saved for later, the scene you wrote last night. Hummle reads them all, and knows the difference.</p>
+      </div>
+      <div class="desk">
+        <article class="item paper tape it-novel">
+          <div class="ill" aria-hidden="true"><div class="bar"><i></i><i></i><i></i>&nbsp;chapter-212</div>Arin pulled the blade free. The floor went still.<br><span class="sys">[ Level Up! You are now level 14 ]</span><div class="ln" style="width:92%"></div><div class="ln" style="width:70%"></div></div>
+          <h3>Web novels and serials</h3>
+          <p>Send a chapter from Chrome or Edge in one click. Menus, ads and comments stay out.</p>
+          <span class="note">system messages get their own chime</span>
+        </article>
+        <article class="item paper tape tape-one it-article">
+          <div class="ill cols" aria-hidden="true"><b>The night train is back</b><div><div class="ln"></div><div class="ln" style="width:88%"></div><div class="ln"></div><div class="ln" style="width:60%"></div></div><div><div class="ln"></div><div class="ln" style="width:94%"></div><div class="ln" style="width:80%"></div></div></div>
+          <h3>Articles and blogs</h3>
+          <p>Long reads, newsletters, guides. Headlines get a pause; links and footnotes stay quiet.</p>
+        </article>
+        <article class="item paper tape tape-one it-draft">
+          <div class="ill lined" aria-hidden="true">She opened the door<br>and there he was…<br>&nbsp;</div>
+          <h3>Your own writing</h3>
+          <p>Paste a draft into the Studio and hear how it flows.</p>
+          <span class="note">change one line, redo one line</span>
+        </article>
+        <article class="item paper tape it-select">
+          <div class="ill" aria-hidden="true">The harbour was quiet. <span class="hl">Gulls circled the last boat in, crying over the water</span> as the lights came on.<br><span class="pop"><img src="art/bird-hum.svg" alt="">Read selection</span></div>
+          <h3>Just the bit you select</h3>
+          <p>Highlight a few lines on any page and Hummle reads only those.</p>
+        </article>
+        <article class="item paper tape tape-one it-book">
+          <div class="ill book" aria-hidden="true"><div><small>Chapter 1</small><div class="ln"></div><div class="ln" style="width:85%"></div><div class="ln"></div></div><div><small>Chapter 2</small><div class="ln" style="width:90%"></div><div class="ln"></div><div class="ln" style="width:70%"></div></div></div>
+          <h3>Whole books, chapter by chapter</h3>
+          <p>Add chapters as you go, keep your place, and save the lot as an audiobook. <span class="badge later">Coming later</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark">
+    <div class="wrap">
+      <div class="head">
+        <h2>Same words. Different scene.</h2>
+        <p class="lede">Most read-aloud tools say every line the same way. Hummle reads what’s happening around a line and performs it to match. You never type stage directions.</p>
+      </div>
+      <div class="scenes">
+        <div class="scene paper tape" data-inview>
+          <p class="ctx">Three years after the war, the door finally opened and there he was, thinner, smiling.</p>
+          <p class="line">“You’re here.”</p>
+          <svg class="wv" data-wave="4,6,9,12,15,18,20,22,23,22,20,18,17,16,15,14,13,12,11,10,9,8,7,6,5,5,4,4,3,3" data-color="#B45134" viewBox="0 0 300 60" aria-hidden="true"></svg>
+          <p class="how">soft and slow, a catch of breath first</p>
+        </div>
+        <div class="scene paper tape" data-inview>
+          <p class="ctx">The lights died. When they came back on, the stranger was already standing in her kitchen.</p>
+          <p class="line">“You’re here.”</p>
+          <svg class="wv" data-wave="0,0,0,0,0,0,0,10,16,18,17,0,0,0,14,19,20,12,0,0,0,0,0,0,0,0,0,0,0,0" data-color="#191B23" viewBox="0 0 300 60" aria-hidden="true"></svg>
+          <p class="how">low and clipped, after a pause that’s too long</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="head">
+        <h2>It knows what it’s reading.</h2>
+        <p class="lede">Books, articles and web novels each have their own habits. Hummle handles them the way a good narrator would, and you can change any of it.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Kinds of writing" data-tabs>
+        <button class="tab" role="tab" id="t-novel" aria-controls="p-novel" aria-selected="true">Web novel</button>
+        <button class="tab" role="tab" id="t-article" aria-controls="p-article" aria-selected="false" tabindex="-1">Article</button>
+        <button class="tab" role="tab" id="t-draft" aria-controls="p-draft" aria-selected="false" tabindex="-1">Your draft</button>
+      </div>
+      <div role="tabpanel" id="p-novel" aria-labelledby="t-novel">
+        <div class="annot">
+          <div class="src"><p>Lin raised the lantern. The light caught on something in the trees.</p></div><div class="an plain"></div>
+          <div class="src"><span class="sys">♪ [ Skill acquired: Lantern Sense ]</span></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>a chime, then a calm system voice</div>
+          <div class="src"><p><em>So that’s what it wanted,</em> she thought.</p></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>thoughts sound closer and softer</div>
+          <div class="src"><p>“RUN,” Theo said. “Now.”</p></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>urgent, not screaming</div>
+          <div class="src last"><p class="skip-text">A/N: Thanks for reading! Support me on…</p></div><div class="an last"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>author’s notes: skip or read, your call</div>
+        </div>
+      </div>
+      <div role="tabpanel" id="p-article" aria-labelledby="t-article" hidden>
+        <div class="annot">
+          <div class="src"><h4>The night train is back</h4></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>headline, then a short pause</div>
+          <div class="src"><p>On 3 May, the sleeper carried 1,204 passengers north.</p></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>“the third of May”, “one thousand two hundred and four”</div>
+          <div class="src"><p>Dr. Ellis, who lives on St. Mary’s Street, booked a cabin.</p></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>Doctor, Saint, Street: read by context</div>
+          <div class="src last"><p>Check the timetable<span class="fn">[2]</span> before you go.</p></div><div class="an last"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>links and footnotes stay quiet</div>
+        </div>
+      </div>
+      <div role="tabpanel" id="p-draft" aria-labelledby="t-draft" hidden>
+        <div class="annot">
+          <div class="src"><p><span class="say">Sade</span> closed the shop at nine.</p></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>set a name once (shah-DAY), used everywhere</div>
+          <div class="src"><p>She had read the note twice before the lead pipe hit the glass.</p></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>read or read? lead or lead? worked out from the sentence</div>
+          <div class="src"><p>BOOM.</p></div><div class="an"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>the word, plus a real sound under it</div>
+          <div class="src last"><p class="brk">* * *</p></div><div class="an last"><svg viewBox="0 0 44 24" aria-hidden="true"><path d="M42 12 H6 M14 4 L5 12 L14 20"/></svg>scene break: a breath of silence</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark">
+    <div class="wrap">
+      <div class="head">
+        <h2>Ten readers to start. Many more on the way.</h2>
+        <p class="lede">Every voice is original, and keeps who they are while the story changes how they speak. New voices join as each one passes our listening tests.</p>
+      </div>
+      <ul class="readers">
+        <li><a href="voices.html#mara"><div class="face"><img src="voices/mara-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Mara</b><span>North American English</span></a></li>
+        <li><a href="voices.html#elias"><div class="face"><img src="voices/elias-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Elias</b><span>North American English</span></a></li>
+        <li><a href="voices.html#june"><div class="face"><img src="voices/june-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>June</b><span>Canadian English</span></a></li>
+        <li><a href="voices.html#theo"><div class="face"><img src="voices/theo-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Theo</b><span>North American English</span></a></li>
+        <li><a href="voices.html#nadia"><div class="face"><img src="voices/nadia-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Nadia</b><span>Southern British English</span></a></li>
+        <li><a href="voices.html#idris"><div class="face"><img src="voices/idris-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Idris</b><span>Nigerian English</span></a></li>
+        <li><a href="voices.html#clara"><div class="face"><img src="voices/clara-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Clara</b><span>British English</span></a></li>
+        <li><a href="voices.html#arthur"><div class="face"><img src="voices/arthur-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Arthur</b><span>British English</span></a></li>
+        <li><a href="voices.html#sade"><div class="face"><img src="voices/sade-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Sade</b><span>Nigerian English</span></a></li>
+        <li><a href="voices.html#luca"><div class="face"><img src="voices/luca-sm.webp" alt="" width="200" height="200" loading="lazy"></div><b>Luca</b><span>North American English</span></a></li>
+        <li class="more"><a href="voices.html#more"><div class="face" aria-hidden="true">+</div><b>Many more</b><span>On the way</span></a></li>
+      </ul>
+      <div class="readers-foot">
+        <a class="btn btn-primary" href="voices.html">Meet the voices</a>
+        <span class="note">portraits show each voice’s character, made with AI</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="head">
+        <h2>The little things that make listening easy.</h2>
+        <p class="lede">Hummle is being built to do a handful of things extremely well. Here are a few of them.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Features" data-tabs>
+        <button class="tab" role="tab" id="f1" aria-controls="fp1" aria-selected="true">Read along</button>
+        <button class="tab" role="tab" id="f2" aria-controls="fp2" aria-selected="false" tabindex="-1">Sound</button>
+        <button class="tab" role="tab" id="f3" aria-controls="fp3" aria-selected="false" tabindex="-1">Fix a line</button>
+        <button class="tab" role="tab" id="f4" aria-controls="fp4" aria-selected="false" tabindex="-1">Every word checked</button>
+        <button class="tab" role="tab" id="f5" aria-controls="fp5" aria-selected="false" tabindex="-1">Keep it</button>
+      </div>
+
+      <div role="tabpanel" id="fp1" aria-labelledby="f1" class="feat">
+        <div>
+          <h3>Follow every word</h3>
+          <p>The sentence being read lights up. Click any line to jump there, and scroll freely; Hummle waits for you.</p>
+          <ul class="ticks"><li>Speed from 0.75× to 2×, without chipmunk voices</li><li>A sleep timer for bedtime chapters</li><li>Remembers where you stopped, in everything you read</li></ul>
+        </div>
+        <div class="mini paper tape">
+          <p class="txt">The road narrowed as the lanterns thinned. <span class="now">Theo slowed. “Do you hear that?” he whispered.</span> Mara didn’t answer.</p>
+          <div class="speeds" aria-hidden="true"><span>0.75×</span><span class="on">1×</span><span>1.25×</span><span>1.5×</span><span>2×</span><span>Sleep in 30 min</span></div>
+        </div>
+      </div>
+      <div role="tabpanel" id="fp2" aria-labelledby="f2" class="feat" hidden>
+        <div>
+          <h3>Sound that belongs to the story</h3>
+          <p>Laughs, sighs and gasps happen in the voice itself. Doors, thunder and system chimes land on the words they belong to. You never write a single tag.</p>
+          <ul class="ticks"><li>Its own mixer, so you set the balance</li><li>Switch any layer off, for one book or all of them</li><li>Quiet ambience under a whole scene <span class="badge later">Later</span></li></ul>
+        </div>
+        <div class="mini paper tape" data-mixer>
+          <div class="row"><label for="mx1">Voice</label><input id="mx1" type="range" min="0" max="100" value="100"><output for="mx1">100</output></div>
+          <div class="row"><label for="mx2">Voice sounds</label><input id="mx2" type="range" min="0" max="100" value="80"><output for="mx2">80</output></div>
+          <div class="row"><label for="mx3">Effects</label><input id="mx3" type="range" min="0" max="100" value="65"><output for="mx3">65</output></div>
+          <div class="row"><label for="mx4">Chimes</label><input id="mx4" type="range" min="0" max="100" value="70"><output for="mx4">70</output></div>
+          <div class="row"><label for="mx5">Ambience</label><input id="mx5" type="range" min="0" max="100" value="30"><output for="mx5">30</output></div>
+        </div>
+      </div>
+      <div role="tabpanel" id="fp3" aria-labelledby="f3" class="feat" hidden>
+        <div>
+          <h3>Fix a line in two clicks</h3>
+          <p>If a line comes out wrong, click it and say what you want. Hummle redoes only that line, and remembers your fix for the rest of the book.</p>
+          <ul class="ticks"><li>Expression: Subtle, Natural or Dramatic</li><li>Keep your favourite take; approved takes are protected</li><li>Teach it how to say a name, once</li></ul>
+        </div>
+        <div class="mini paper tape">
+          <p class="txt">She folded the letter. <span class="now">“Well,” she said, “that’s that, then.”</span></p>
+          <div class="menu" aria-hidden="true"><span>Less dramatic</span><span>More amused</span><span>No sound here</span><span>Try another take</span></div>
+        </div>
+      </div>
+      <div role="tabpanel" id="fp4" aria-labelledby="f4" class="feat" hidden>
+        <div>
+          <h3>Every word, checked</h3>
+          <p>Before a line reaches you, Hummle listens to its own recording and compares it with the page. Skipped or invented words are caught and redone.</p>
+          <ul class="ticks"><li>Checks the voice still sounds like itself</li><li>Marks anything it isn’t sure about, so you can choose</li></ul>
+        </div>
+        <div class="mini paper tape">
+          <div class="row"><span class="txt">At last, she heard his key in the door.</span><span class="badge tgl">All words checked</span></div>
+          <div class="row"><span class="txt">He paused on the step, then knocked twice.</span><span class="badge tgl">Redone, now checked</span></div>
+          <div class="row"><span class="txt">“It’s me,” he said.</span><span class="badge tgl">All words checked</span></div>
+        </div>
+      </div>
+      <div role="tabpanel" id="fp5" aria-labelledby="f5" class="feat" hidden>
+        <div>
+          <h3>Keep it for later</h3>
+          <p>Save a chapter as audio for a walk, a drive or a long queue.</p>
+          <ul class="ticks"><li>High-quality WAV and FLAC files</li><li>Phone-friendly audiobooks with chapter marks <span class="badge later">Later</span></li><li>Your library lives in a folder you choose</li></ul>
+        </div>
+        <div class="mini paper tape">
+          <ul class="files">
+            <li><span>Chapter 12, The Lantern Road.flac</span><small>14:08</small></li>
+            <li><span>Kitchen scene, draft 3.wav</span><small>2:31</small></li>
+            <li><span>The Lantern Road (book).m4b</span><span class="badge later">Later</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="more-link"><a class="btn" href="features.html">See every feature</a></p>
+    </div>
+  </section>
+
+  <section class="section privacy dark" id="privacy">
+    <div class="wrap priv">
+      <div>
+        <h2>What you read stays on your computer.</h2>
+        <p class="lede" style="margin-top:22px">Hummle does all its work on your own PC. There’s no account to make, nothing is uploaded, and nobody sees what you read.</p>
+        <ul class="promises">
+          <li><b>No account</b><span>Nothing to sign up for. Ever.</span></li>
+          <li><b>No cloud</b><span>Your text and audio are never sent to an online service.</span></li>
+          <li><b>No tracking</b><span>No analytics, no ads, no automatic crash reports.</span></li>
+          <li><b>Works offline</b><span>Once the voices are set up, the internet is optional.</span></li>
+        </ul>
+        <p style="margin-top:30px"><a class="btn btn-primary" href="privacy.html">Read the privacy promise</a></p>
+      </div>
+      <div class="house" data-house>
+        <span class="lbl">Your PC</span>
+        <img class="sticker bird" src="art/bird-lock.svg" alt="">
+        <div class="room"><div>Your library</div><div>The voices</div><div>The checks</div></div>
+        <div class="wall">
+          <span class="sr">Nothing travels from your PC to the internet:</span>
+          <div class="line" aria-hidden="true"></div>
+          <svg class="cloud" viewBox="0 0 92 56" role="img" aria-label="The internet"><path d="M24 50 H70 a16 16 0 0 0 2-31.9 A22 22 0 0 0 30 12 a18 18 0 0 0-6 38z" fill="#2A2F3A" stroke="#B3B7C2" stroke-width="2.5"/><path d="M38 24 L54 40 M54 24 L38 40" stroke="#E9966A" stroke-width="3.5" stroke-linecap="round"/></svg>
+        </div>
+        <label class="switch"><input type="checkbox" checked data-net> Internet connection</label>
+        <p class="offline-msg" aria-live="polite" data-net-msg>Only used to download voices once, and for web pages you open yourself.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section closing">
+    <div class="wrap">
+      <img class="sleepy" src="art/bird-sleepy.svg" alt="">
+      <h2>Hummle is still learning its lines.</h2>
+      <p class="lede">It’s in private development, and it won’t ship until every voice sounds right. When it’s ready, you’ll find it here.</p>
+    </div>
+  </section>
+</main>
+
+<div class="wrap">
+  <div class="flock" data-flock aria-hidden="true">
+    <img class="fl" src="art/bird-hum.svg" alt="" style="left:2%;top:30px;transform:rotate(-8deg)">
+    <img class="fl" src="art/bird-book.svg" alt="" style="left:16%;top:18px;transform:rotate(5deg)">
+    <img class="fl" src="art/bird-headphones.svg" alt="" style="left:30%;top:36px;transform:rotate(-3deg)">
+    <img class="fl" src="art/bird-lock.svg" alt="" style="left:44%;top:22px;transform:rotate(7deg)">
+    <span class="note">they don’t mind being moved</span>
+  </div>
+  <footer class="site-foot">
+    <a class="mark" href="index.html" aria-label="Hummle home"><img src="brand/hummle-logo.svg" alt="Hummle"></a>
+    <nav class="nav" aria-label="Footer">
+      <a href="features.html">Features</a>
+      <a href="voices.html">Voices</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+    <span>hummle.app, in private development</span>
+  </footer>
+</div>
+<script src="assets/site.js"></script>
+</body>
+</html>

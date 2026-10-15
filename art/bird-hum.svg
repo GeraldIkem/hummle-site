@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 66" role="img" aria-label="Hummle bird humming"><title>Hummle bird humming</title>
+<g stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round" fill="#FFFFFF"><g transform="translate(6 6)">
+  
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#FFFFFF"/>
+  <circle cx="36" cy="28" r="15" fill="#FFFFFF"/>
+  <circle cx="47" cy="41" r="13.5" fill="#FFFFFF" clip-path="url(#s1)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#FFFFFF"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#FFFFFF"/><g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round"><path class="hum1" d="M61.2 20.6 A6 6 0 0 1 61.2 28.6"/><path class="hum2" d="M66.2 16.6 A11 11 0 0 1 66.2 32.6"/></g></g></g>
+<g transform="translate(6 6)">
+  <defs><clipPath id="s1"><circle cx="36" cy="28" r="15"/></clipPath></defs>
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#191B23"/>
+  <circle cx="36" cy="28" r="15" fill="#191B23"/>
+  <circle cx="47" cy="41" r="13.5" fill="#B45134" clip-path="url(#s1)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#191B23"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#F6F2EC"/><g fill="none" stroke="#B45134" stroke-width="2.8" stroke-linecap="round"><path class="hum1" d="M61.2 20.6 A6 6 0 0 1 61.2 28.6"/><path class="hum2" d="M66.2 16.6 A11 11 0 0 1 66.2 32.6"/></g></g></svg>

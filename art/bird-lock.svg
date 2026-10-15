@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 70" role="img" aria-label="Hummle bird guarding a padlock"><title>Hummle bird guarding a padlock</title>
+<g stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round" fill="#FFFFFF"><g transform="translate(8 6)">
+  
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#FFFFFF"/>
+  <circle cx="36" cy="28" r="15" fill="#FFFFFF"/>
+  <circle cx="47" cy="41" r="13.5" fill="#FFFFFF" clip-path="url(#s4)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#FFFFFF"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#FFFFFF"/>
+  <g transform="translate(48 34)"><path d="M5 10 V6 C5 0 17 0 17 6 V10" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3"/><rect x="0" y="9" width="22" height="18" rx="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2.4"/><circle cx="11" cy="17" r="2.6" fill="#FFFFFF"/><path d="M11 18 V22" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/></g></g></g>
+<g transform="translate(8 6)">
+  <defs><clipPath id="s4"><circle cx="36" cy="28" r="15"/></clipPath></defs>
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#191B23"/>
+  <circle cx="36" cy="28" r="15" fill="#191B23"/>
+  <circle cx="47" cy="41" r="13.5" fill="#B45134" clip-path="url(#s4)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#191B23"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#F6F2EC"/>
+  <g transform="translate(48 34)"><path d="M5 10 V6 C5 0 17 0 17 6 V10" fill="none" stroke="#191B23" stroke-width="3"/><rect x="0" y="9" width="22" height="18" rx="4" fill="#E9966A" stroke="#191B23" stroke-width="2.4"/><circle cx="11" cy="17" r="2.6" fill="#191B23"/><path d="M11 18 V22" stroke="#191B23" stroke-width="2.4" stroke-linecap="round"/></g></g></svg>

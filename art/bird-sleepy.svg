@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 84 74" role="img" aria-label="Hummle bird asleep"><title>Hummle bird asleep</title>
+<g stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round" fill="#FFFFFF"><g transform="translate(6 12)">
+  
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#FFFFFF"/>
+  <circle cx="36" cy="28" r="15" fill="#FFFFFF"/>
+  <circle cx="47" cy="41" r="13.5" fill="#FFFFFF" clip-path="url(#s5)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#FFFFFF"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#FFFFFF"/><path d="M39 22.6 C41 24.6 44 24.6 46 22.6" stroke="#FFFFFF" stroke-width="1.8" fill="#FFFFFF" stroke-linecap="round"/>
+  <g fill="#FFFFFF" font-family="Georgia, serif" font-weight="700"><text x="58" y="6" font-size="12">z</text><text x="66" y="-2" font-size="9">z</text></g></g></g>
+<g transform="translate(6 12)">
+  <defs><clipPath id="s5"><circle cx="36" cy="28" r="15"/></clipPath></defs>
+  <path d="M25.5 19 C17 25 10 35 4.5 48.5 C14.5 44.5 24 42.5 33 42.8 Z" fill="#191B23"/>
+  <circle cx="36" cy="28" r="15" fill="#191B23"/>
+  <circle cx="47" cy="41" r="13.5" fill="#B45134" clip-path="url(#s5)"/>
+  <path d="M49.6 21.6 L57.5 24.6 L50.6 27.6 Z" fill="#191B23"/>
+  <circle cx="42.2" cy="22.6" r="2" fill="#191B23"/><path d="M39 22.6 C41 24.6 44 24.6 46 22.6" stroke="#F6F2EC" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <g fill="#E9966A" font-family="Georgia, serif" font-weight="700"><text x="58" y="6" font-size="12">z</text><text x="66" y="-2" font-size="9">z</text></g></g></svg>
